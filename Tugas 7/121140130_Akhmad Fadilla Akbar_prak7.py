@@ -5,7 +5,7 @@ class TextEditor:
     def __init__(self, master):
         self.master = master
         master.title("Text Editor")
-        master.geometry("800x800")
+        master.geometry("900x800")
 
 
         self.button_frame = tk.Frame(master, width=100)
@@ -23,7 +23,7 @@ class TextEditor:
         self.text_box.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
 
-        self.master.minsize(800, 800)
+        self.master.minsize(900, 800)
         self.text_box.config(width=800)
 
 
